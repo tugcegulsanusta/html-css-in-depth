@@ -1,25 +1,74 @@
-root {
-    --font: slategrey;
-    --background: wheat;
-    --menuColor: slategrey;
+*{
+    margin: 0;
+    padding: 0;
 }
-.navigation-bar {
-    margin-bottom: 20px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    left: 0;
-    top: 0;
+/*
+body {
+    background-color: aliceblue;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+*/
+header > img {
+    width: fit-content;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    float: center;
+
+
+}
+/*
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
     display: inline-block;
-    background-color: rgba(15, 87, 33, 0.678);
+    size: 50rem;
 }
-.navigation-bar a{
-    text-decoration: none;
-    color: white;
+
+*/
+section {
+    display: flex;
 }
-.navigation-bar nav li{
-    padding: 10px;
-    margin: 20px;
+article{
+    flex: 1;
+}
+
+.container {
+    background-color: rgba(35, 129, 117, 0.76);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+.container li{
     list-style-type: none;
-    display: inline-flex;
+}
+.container a{
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: steelblue ;
+    color: rgb(54, 3, 54);
+}
+.container a:hover {
+    background-color: aliceblue;
 }
