@@ -32,19 +32,6 @@ header > img {
 
 
 }
-/*
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav li{
-    display: inline-block;
-    size: 50rem;
-}
-
-*/
 section {
     display: flex;
 }
@@ -56,7 +43,7 @@ article{
     background-color: rgba(35, 129, 117, 0.76);
     display: flex;
     flex-flow: row wrap;
-    justify-content: stretch;
+    text-align: justify;
 }
 .container li{
     list-style-type: none;
@@ -68,6 +55,19 @@ article{
     text-align: center;
     text-decoration: steelblue ;
     color: rgb(54, 3, 54);
+}
+.searchBox {
+    margin-top: 5%;
+    padding-top: 10%;
+    background-position: 10px;
+}
+form {
+    color:rgb(54, 3, 54);
+    display: flex;
+    padding: 15px;
+}
+form :hover {
+    border-color: purple;
 }
 .container a:hover {
     background-color: aliceblue;
