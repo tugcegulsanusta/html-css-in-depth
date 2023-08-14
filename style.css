@@ -4,25 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/*
-body {
-    background-color: aliceblue;
-    font-family: 'Markazi Text', serif;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
 
-}
-
-
-h1{
-    font-size: 3rem;
-}
-h2{
-    font-size: 2rem;
-}
-*/
 header > img {
     width: fit-content;
     height: 120px;
@@ -76,7 +58,7 @@ form :hover {
     width: 100%;
     background-position:center;
     background-size: cover;
-    background-image: url(Asset\ 3@3x.png);
+    background-image: url(images/Asset\ 3@3x.png);
     background-repeat: no-repeat;
 }
 
@@ -90,6 +72,8 @@ form :hover {
     color: rgb(132, 119, 146);
 }
 .promotion p{
+    display: flex;
+    justify-content: center;
     margin: 3rem;
     text-align: justify;
     color: rgb(33, 12, 46);
@@ -147,7 +131,7 @@ footer img{
 footer p{
     display: block;
     margin-left: 46%;
-    color: rgb(107, 14, 161);
+    color: rgb(90, 34, 8);
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
