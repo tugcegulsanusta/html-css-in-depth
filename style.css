@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 /*
 body {
@@ -29,8 +31,6 @@ header > img {
     margin-right: auto;
     margin-bottom: 2rem;
     float: center;
-
-
 }
 section {
     display: flex;
@@ -42,6 +42,7 @@ article{
 .container {
     background-color: rgba(35, 129, 117, 0.76);
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     text-align: justify;
 }
@@ -71,4 +72,35 @@ form :hover {
 }
 .container a:hover {
     background-color: aliceblue;
+    border-color: purple;
+   
+}
+.search-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.one{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(background-first-section.jpeg);
+}
+
+.promotion h1{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    font-family:fantasy;
+    margin: 5rem;
+    float: center;
+    color: rgb(238, 211, 181);
+}
+.promotion p{
+    margin: 3rem;
+    text-align: justify;
+    color: rgb(238, 232, 232);
+    
 }
