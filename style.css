@@ -61,32 +61,35 @@ form :hover {
     background-image: url(images/Asset\ 3@3x.png);
     background-repeat: no-repeat;
 }
-
 .promotion h1{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Archivo Black',sans-serif;
-    margin: 5rem;
+    margin: 0rem;
+    padding: 2rem;
     float: center;
     color: rgb(132, 119, 146);
 }
 .promotion p{
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin-bottom: 2rem;
     text-align: justify;
     color: rgb(33, 12, 46);
     font-size: large;
     font-family:cursive;
 }
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .items div{
-    display:block;
-    flex-direction: row;
     margin: 2px;
     border: 3px solid gray;
     text-align: center;
 }
+
 .items h2{
     margin-top: 2%;
     margin-left: 20%;
@@ -97,6 +100,7 @@ form :hover {
 .items p{
     font-family: cursive;
     font-size: large;
+    margin: 10%;
 }
 .succulent-img{
     height: 240px;
@@ -139,4 +143,7 @@ footer p{
     font-weight: 100;
     font-family: cursive;
     font-size: small;
+    margin-bottom: 10%;
+
 }
+
